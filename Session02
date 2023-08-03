@@ -1,0 +1,25 @@
+03rd August 2023
+------------------------------------------------
+Pragraph tag: <p></p>
+align attribute: left, right, justify
+comment tag: <!--   -->
+line break tag: <br>
+horizontal rule tag: <hr>
+white spaces: &nbsp;
+pre formatted tags: <pre></pre>
+HTML Text formatting:
+    * <b></b>
+    * <i></i>
+    * <u></u>
+    * <strong></strong>
+    * <small></small>
+    * <big></big>
+    * <mark></mark>
+    * <del></del>
+    * <ins></ins>
+    * <sub></sub>
+    * <sup></sup>
+HTML Lists: <li></li>
+    * Ordered list: <ol></ol>
+    * Unordered list: <ul></ul>
+    * Description list: <dl><dt><dd></dd></dt></dl>

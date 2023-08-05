@@ -1,0 +1,37 @@
+05th August 2023
+------------------------------------------------
+<font></font>
+    - color
+    - face
+    - size : 1 -> 7
+<center></center>
+<q></q> = quotation tag = "....."
+<blockquote></blockquote>
+<cite></cite>
+<address></address>
+    - align
+<img>
+    - src
+        * Absolute path
+        * Relative path
+    - alt
+    - height
+    - width
+    - align
+        * top
+        * bottom
+        * left
+        * right
+    - vspace
+    - hspace
+<a href=""></a>
+    - href = html file path # id of an element
+        * "mailto:abc123@gmail.com"
+        * "tel:123456789"
+    - target
+        * _self
+        * _blank
+        * _parent
+        * _top
+    - title
+    - download

@@ -1,0 +1,19 @@
+06th August 2023
+------------------------------------------------
+table, tr, th, td tags
+    * cellspacing
+    * cellpadding
+    * border
+    * width
+    * height
+    * align
+    * bgcolor: #yellow
+    * colspan
+    * rowspan
+color codes
+    (R, G, B) = #RRGGBB
+    eg:- # FA 1E 2D = (16x15+1x10, 16x1+1x14, 16x2+1x13) = (250, 30, 45)
+HTML Entities & Emojis
+Block & Inline Elements
+    * div: block
+    * span: inline

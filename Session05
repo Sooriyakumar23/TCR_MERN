@@ -1,0 +1,40 @@
+08th August 2023
+------------------------------------------------
+form tag
+input tag
+    * type
+        ** text
+        ** password
+        ** radio
+            - name needs to be same
+        ** checkbox
+        ** submit
+        ** reset
+        ** file
+        ** color
+        ** url
+        ** date
+        ** time
+        ** date-time
+        ** number
+        ** range
+        ** tel
+    * id
+    * placeholder
+    * size
+    * maxlength
+    * value
+    * required
+    * disabled
+    * name
+select & option
+button
+textarea
+    * rows
+    * cols
+    - comments
+    - reviews
+    - address
+fieldset & legend
+audio & source
+vedio & source

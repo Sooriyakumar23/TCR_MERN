@@ -1,0 +1,16 @@
+11th August 2023
+------------------------------------------------
+What is CSS?
+What is style attribute and tag?
+background-color
+color
+margin
+font-family
+font-size
+text-align
+CSS selectors
+    universal = *
+    element type = p
+    class = .className
+    id = #id
+    group = element1, element2

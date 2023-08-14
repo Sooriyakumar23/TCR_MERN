@@ -1,0 +1,48 @@
+Types of styling in CSS
+    - Inline
+    - Internal
+    - External
+Priority Order
+    - EXTERNAL < INTERNAL < INLINE
+background properties in CSS
+    - background-color: rgb color code
+    - background-image: url("image_path")
+    - background-repeat:
+                        no-repeat
+                        repeat
+                        repeat-x
+                        repeat-y
+    - background-position:
+                        center
+                        top
+                        bottom
+                        left
+                        right
+    - background-attachment
+    - background-properties
+letter-spacing in CSS
+line-height in CSS
+text-decoration:
+                overline
+                underline
+text-transform:
+                uppercase
+                lowercase
+                capitalize
+word-spacing: 25px;
+font-style:
+            italic
+            oblique
+            normal
+font-size:
+            xx-small
+            x-small
+            smaller
+            small
+            medium
+            large
+            larger
+            x-large
+            xx-large
+            50px;
+            5px;

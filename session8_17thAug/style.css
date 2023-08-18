@@ -1,0 +1,13 @@
+p {
+    border: solid red 5px;
+    padding: 30px;
+    margin: 70px;
+}
+
+div {
+    column-count: 5;
+}
+
+.opaci {
+    opacity: 0.3;
+}

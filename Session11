@@ -1,0 +1,15 @@
+22nd August 2023
+------------------------------------------------
+What is Function?
+    - Way to avoid writing repeating code lines
+Benefits of using a Function
+    - Avoid repeating piece of code
+    - Better maintainability
+    - Reduce possibility of errors
+How to write a function?
+    - Keyword = function
+    - Name = functionName
+    - Parameters = a, b, c.....
+        * Not compulsory
+How to invoke/call a function?
+Anonymous function

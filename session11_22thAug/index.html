@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in JS</title>
+</head>
+<body>
+    <script>
+        function alertMe(){
+            alert("Hey, are you there ?");
+        }
+
+        function alertSpecific(name){
+            alert("Hey, are you there " + name);
+        }
+
+        function operations(num1, num2) {
+            document.write("<h1>", num1 + num2, "</h1>");
+            document.write("<h1>", num1 - num2, "</h1>");
+            document.write("<h1>", num1 * num2, "</h1>");
+            document.write("<h1>", num1 / num2, "</h1>");
+            document.write("<h1>", num1 ** num2, "</h1>");
+            document.write("<h1>", num1 % num2, "</h1>");
+        }
+
+        // Anonymous Function
+        let anoFunc = function(teacherName, studentName) {
+            document.write(teacherName, " teaches ", studentName);
+        }
+
+        // Arrow Functions
+        let arrowFunc = (a=1, b=1) => (document.write(a + " multiplies by " + b + " = " + a*b));
+
+        alertMe();
+
+        alertSpecific('Sooriyakumar');
+
+        operations(1, 5);
+        document.write('<hr>');
+        operations(5, 5);
+        document.write('<hr>');
+        operations(5, 1);
+        document.write('<hr>');
+
+        anoFunc("Sooriya", "Kumar");
+        document.write('<hr>');
+        
+        arrowFunc();
+        document.write('<hr>');
+        arrowFunc(2);
+        document.write('<hr>');
+        arrowFunc(2, 3);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS String</title>
+</head>
+<body>
+    <script>
+        var string1 = 'This is a String';
+        var string2 = "This is another String";
+        var string3 = new String('This is one more String');
+        var string4 = `This is another one more String`;
+
+        var data = 'String';
+        var string5 = `This is the last ${data}`;
+
+        console.log(string1);
+        console.log(string2);
+        console.log(string3);
+        console.log(string4);
+        console.log(string5);
+
+        document.write('<h1>', string1.charAt(5) ,'</h1>');
+        document.write('<h1>', string1.concat(string2) ,'</h1>');
+        document.write('<h1>', string1.indexOf('String') ,'</h1>');
+        document.write('<h1>', string1.substring(2) ,'</h1>');
+        document.write('<h1>', string1.toString() ,'</h1>');
+        document.write('<h1>', string1.toUpperCase() ,'</h1>');
+        document.write('<h1>', string1.toLowerCase() ,'</h1>');
+
+        document.write('<h1>', string1.length ,'</h1>');
+    </script>
+</body>
+</html>

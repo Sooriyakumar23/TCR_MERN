@@ -1,0 +1,44 @@
+24th August 2023
+------------------------------------------------
+String
+    - Primitive data type
+    - Immutable
+    - Ways to instantiate
+        * ''
+        * ""
+        * new String()
+        * ``
+            - ES6 introduced template literal
+    - String literal
+    - methods
+        * charAt()
+        * concat()
+        * indexOf()
+        * substring()
+        * toString()
+        * toUpperCase()
+        * toLowerCase()
+    - properties
+        * length
+Date
+    - new Date()
+    - methods
+        * getDate()
+        * getDay()
+        * getMonth()
+        * getFullYear()
+        * getHours()
+        * getMinutes()
+Math
+    - methods
+        * abs()
+        * max()
+        * min()
+        * random()
+            - between 0 & 1 with inclusive
+        * round()
+        * sqrt()
+    - properties
+        * PI
+Array
+    - Group of data(elements with index)

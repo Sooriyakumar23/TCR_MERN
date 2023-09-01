@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 13</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        h5 {
+            color: yellow;
+        }
+        h6 {
+            color: cyan;
+        }
+        input {
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <input onblur="blurMe()" onfocus="focusMe()">
+    <input onclick="singleClick()">
+    
+    <p class="pClass"> This is now having black background color </p>
+
+    <p id="pID"> before :D </p>
+
+    <script>
+        const array1 = [1, 2, '3.1', '3.2', 4, '5.0'];
+
+        for (let index=0; index<array1.length; index++) {
+            document.write(`<h5> ${array1[index]} </h5> <hr>`);
+        }
+
+        for (let element of array1) {
+            document.write(`<h6> ${element} </h6> <hr>`);
+        }
+
+        document.getElementsByClassName("pClass")[0].style.backgroundColor = 'grey';
+
+        document.getElementById("pID").innerText = 'After :)';
+
+        function singleClick() {
+            alert("Hi");
+        }
+
+        function focusMe() {
+            var inputElement = document.getElementsByTagName("input")[0];
+            inputElement.style.backgroundColor = 'lightgreen';
+        }
+
+        function blurMe() {
+            var inputElement = document.getElementsByTagName("input")[0];
+            inputElement.value = inputElement.value.toUpperCase();
+        }
+    </script>
+
+    
+</body>
+</html>

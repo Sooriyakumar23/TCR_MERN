@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+</head>
+<body style="background-color: black; color: white;">
+
+    <form action="/userForm" onsubmit="return validator()">
+        <label>Enter the User Name: </label>
+        <input id="userName" placeholder="Username" type="text">
+        <br><br><br>
+        <label>Enter the Phone number: </label>
+        <input id="phoneNo" placeholder="mobile no" type="number" min="0" max="809999999">
+        <br><br><br>
+        <label>Type the Password: </label>
+        <input id="password" placeholder="Password" type="password">
+        <br><br><br>
+        <label>Retype the Password: </label>
+        <input id="rePassword" placeholder="Re - Password" type="password">
+        <br><br><br>
+        <button style="background-color: aqua;" type="submit">SUBMIT FORM</button>
+    </form>
+
+    <script type="text/javascript">
+        var validator = function() {
+            var userName = document.getElementById("userName").value;
+            var phoneNo = document.getElementById("phoneNo").value;
+            var password = document.getElementById("password").value;
+            var rePassword = document.getElementById("rePassword").value;
+
+            console.log(userName);
+
+            if ((userName === null) || (userName === '')) {
+                alert("User Name can't be empty");
+                return false;
+            }
+
+            if ((phoneNo === null) || (phoneNo === '')) {
+                alert("Phone number can't be empty");
+                return false;
+            }
+
+            if ((password === null) || (password === '')) {
+                alert("Password can't be empty");
+                return false;
+            }
+
+            if ((rePassword === null) || (rePassword === '')) {
+                alert("Confirm Password can't be empty");
+                return false;
+            }
+
+            if (password !== rePassword ) {
+                alert("Both Passwords are not matching !");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+    
+</body>
+</html>

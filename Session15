@@ -1,0 +1,16 @@
+01st September 2023
+------------------------------------------------
+Introduction to Node JS
+    * open source
+    * cross platform
+    * JS runtime environment
+    * Very performant
+        - Runs the V8 JS engine core of Google Chrome outside of the browser
+    * Runs in a single process instead of creating thread for every request
+    * libraries in Node JS written in Non-Blocking paradigm
+    * Used for server side & light weight
+    * Application = Data intensive Real time application
+        - Event driven & Non-Blocking I/O model
+        - eg: Video streaming, one page application.....
+Install Node JS
+Run js file using Node command in terminal

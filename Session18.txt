@@ -1,0 +1,14 @@
+fs module
+	* readFileSync
+	* writeFileSync
+	* appendFileSync
+	* readFile
+	* writeFile
+
+UTF = Unicode Transformation Format
+
+NPM = Node Package Manager
+	* upper-case
+	* colors
+
+npm uninstall express
